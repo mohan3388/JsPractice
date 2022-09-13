@@ -1,7 +1,8 @@
-var year=2012;
-if(((year%4==0)&&(year%100!=0))||(year%400==0))
+var randVal=Math.floor(Math.random()*10)%2;
+
+if(randVal==0)
 {
-  console.log(year+" is leap year");
+  console.log("Head");
 }else{
-  console.log(year+" is not leap year");
+  console.log("tail");
 }
