@@ -1,32 +1,26 @@
 var Val1=1;
-var Val2=2;
-var Val3=3;
-var Val4=4;
-var Val5=5;
-var Val6=6;
-var Val7=7;
+var Val2=10;
+var Val3=100;
+var Val4=1000;
+var Val5=10000;
+
 let x=2;
 switch(x)
 {
     case Val1:
-        console.log("Sunday");
+        console.log("Unit");
         break;
         case Val2:
-            console.log("Monday");
+            console.log("Ten");
         break;
     case Val3:
-            console.log("Tuesday");
+            console.log("Hundred");
         break;
     case Val4:
-            console.log("Wednesday");
+            console.log("Thousand");
          break;
          case Val5:
-            console.log("thrusday");
+            console.log("Ten Thousand");
          break;
-         case Val6:
-            console.log("Friday");
-         break;
-         case Val7:
-            console.log("Saturday");
-         break;
+        
 }
