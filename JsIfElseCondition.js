@@ -1,11 +1,7 @@
-//UC2
-var date=25;
-var Month=5;
-if(Month>=3 && Month<=6 && date >= 20)
-
+var year=2012;
+if(((year%4==0)&&(year%100!=0))||(year%400==0))
 {
-      console.log("valid");
-  
-}else {
-  console.log("no valid");
+  console.log(year+" is leap year");
+}else{
+  console.log(year+" is not leap year");
 }
